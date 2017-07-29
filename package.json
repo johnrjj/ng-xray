@@ -1,6 +1,6 @@
 {
   "name": "ng-xray",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "description": "Simple, tree-shakable, AoT, Universal and Web Worker friendly xray component for Angular (2 and beyond).",
   "main": "lib/index.js",
