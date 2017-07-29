@@ -1,6 +1,6 @@
 {
   "name": "ng-xray",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "description": "Simple, tree-shakable, AoT, Universal and Web Worker friendly xray component for Angular (2 and beyond).",
   "main": "lib/index.js",
@@ -23,8 +23,8 @@
   },
   "private": false,
   "peerDependencies": {
-    "@angular/core": ">=4.0.0",
-    "@angular/common": ">=4.0.0"
+    "@angular/common": ">=4.0.0",
+    "@angular/core": ">=4.0.0"
   },
   "devDependencies": {
     "@angular/cli": "^1.2.6",
@@ -61,7 +61,7 @@
     "type": "git",
     "url": "git+https://github.com/johnrjj/ng-xray.git"
   },
-    "keywords": [
+  "keywords": [
     "x-ray",
     "xray",
     "css",
@@ -74,5 +74,4 @@
     "url": "https://github.com/johnrjj/ng-xray/issues"
   },
   "homepage": "https://github.com/johnrjj/ng-xray#readme"
-
 }
