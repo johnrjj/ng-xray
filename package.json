@@ -13,7 +13,7 @@
     "build": "npm run build:lib && npm run build:demo",
     "build:demo": "rimraf dist/demo && ng build",
     "build:lib": "rimraf dist/lib && ngc && copyfiles package.json README.md LICENSE dist/",
-    "test": "ng test",
+    "test": "echo test me",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "pub": "npm run pub:lib && npm run pub:demo",
