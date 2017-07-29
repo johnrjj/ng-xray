@@ -5,7 +5,7 @@ Simple, tree-shakable, AoT, Universal and Web Worker friendly XRay component for
 # How to use?
 
 ```
-$ npm i ngxray --save
+$ npm i ng-xray --save
 ```
 
 # API

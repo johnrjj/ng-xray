@@ -7,8 +7,4 @@ import { NgXRayComponent } from './ngxray.component';
   declarations: [NgXRayComponent],
   exports: [NgXRayComponent],
 })
-export class NgXRayModule {
-
-  /* optional: in case you need users to override your providers or providers need to be singletons */
-
-}
+export class NgXRayModule {}

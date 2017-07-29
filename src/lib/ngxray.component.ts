@@ -6,17 +6,18 @@ const xrayBgColor = '#011629';
 const gridSize = 8;
 const backgroundPosition = 'top left'; // or center center
 
-export const gradient = (angle = 0, size, color) =>
-  `linear-gradient(${angle}deg, transparent, transparent ${size -
+export function gradient(angle = 0, size, color) {
+  return   `linear-gradient(${angle}deg, transparent, transparent ${size -
     1}px, ${color} ${size - 1}px)`;
+}
 
-export const alpha = (val, a) => {
+export function alpha(val, a) {
   try {
     return chroma(val).alpha(a).css();
   } catch (e) {
     return val;
   }
-};
+}
 
 @Component({
   selector: 'ng-xray, [ngXray]',
